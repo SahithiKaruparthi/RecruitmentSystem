@@ -1,0 +1,7 @@
+__pycache__/
+.env
+*.pyc
+*.sqlite
+.venv/
+node_modules/
+.DS_Store
