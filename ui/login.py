@@ -1,6 +1,6 @@
 # ui/login.py
 import streamlit as st
-from utils.auth_utils import create_user, authenticate_user, get_password_hash, get_user_from_token
+from utils.auth_utils import create_user, authenticate_user, get_password_hash, get_user_from_token, create_access_token
 
 def show_login_page():
     """Display login/registration page"""
