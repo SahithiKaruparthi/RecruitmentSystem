@@ -1,0 +1,40 @@
+# LLM and Vector DB
+langchain>=0.1.0
+langchain-openai>=0.0.1
+langchain-groq>=0.1.0
+langchain-community>=0.0.16
+faiss-cpu>=1.7.4
+pymilvus>=2.3.0
+chromadb>=0.4.22
+
+# Embedding Models
+sentence-transformers>=2.2.2
+
+# PDF Processing
+pymupdf>=1.23.7
+pdfminer.six>=20221105
+unstructured>=0.10.30
+
+# Database
+sqlalchemy>=2.0.25
+sqlite3worker>=1.1.0
+
+# Frontend and API
+streamlit>=1.29.0
+fastapi>=0.103.1
+uvicorn>=0.23.2
+pydantic>=2.4.2
+
+# Authentication
+python-jose>=3.3.0
+passlib>=1.7.4
+bcrypt>=4.0.1
+
+# Email
+python-dotenv>=1.0.0
+aiosmtplib>=2.0.2
+
+# Utilities
+numpy>=1.24.0
+pandas>=2.1.0
+pytest>=7.4.0
